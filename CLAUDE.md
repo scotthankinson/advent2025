@@ -6,14 +6,27 @@
 advent2025/
 ├── src/              # Current working problem
 │   ├── input.txt     # Actual puzzle input
-│   ├── example.txt   # Example input from puzzle description (for testing)
-│   └── solution.ts   # Solution code
+│   ├── example.txt   # Example input for testing
+│   ├── pt1.txt       # Part 1 puzzle description
+│   ├── pt2.txt       # Part 2 puzzle description
+│   ├── solution.ts   # Solution code
+│   └── test.ts       # Test harness
 ├── solved/           # Completed solutions
 │   └── day01/
-│       ├── day1.input.txt          # Puzzle input data
-│       ├── day1.pt1.puzzle.txt     # Part 1 puzzle description
-│       ├── day1.pt2.puzzle.txt     # Part 2 puzzle description
-│       └── solution.ts             # Solution code
+│       ├── input.txt     # Puzzle input data
+│       ├── example.txt   # Example test case
+│       ├── pt1.txt       # Part 1 description
+│       ├── pt2.txt       # Part 2 description
+│       ├── solution.ts   # Working solution
+│       └── test.ts       # Automated tests
+├── template/         # Clean templates for new days
+│   ├── solution.ts
+│   ├── example.txt
+│   ├── input.txt
+│   ├── pt1.txt
+│   ├── pt2.txt
+│   ├── test.ts
+│   └── README.md
 ├── .gitignore
 ├── package.json
 └── tsconfig.json
@@ -25,11 +38,13 @@ advent2025/
 - **Working directory**: `src/` contains the current day's problem
 - **Testing**: Use `example.txt` for puzzle examples to verify logic before running on full input
 - **Completed solutions**: Move to `solved/dayXX/` when both parts are complete
-- **File naming in solved/**:
-  - `day1.input.txt` - The actual puzzle input
-  - `day1.pt1.puzzle.txt` - Part 1 puzzle description text
-  - `day1.pt2.puzzle.txt` - Part 2 puzzle description text
-  - `solution.ts` - Working solution
+- **File naming**:
+  - `input.txt` - Actual puzzle input
+  - `example.txt` - Example test case from puzzle
+  - `pt1.txt` - Part 1 puzzle description
+  - `pt2.txt` - Part 2 puzzle description
+  - `solution.ts` - Solution code
+  - `test.ts` - Automated test harness
 
 ## Running Solutions
 
@@ -113,3 +128,21 @@ const testCases: TestCase[] = [
 ```
 
 Run tests: `npx ts-node solved/dayXX/test.ts`
+
+## Template System
+
+The `template/` folder contains clean starting files for each new day:
+
+**Starting a new day:**
+1. Copy files from `template/` to `src/` (or manually copy the structure)
+2. Paste puzzle input into `src/input.txt`
+3. Paste example from puzzle into `src/example.txt`
+4. Paste puzzle descriptions into `src/pt1.txt` and `src/pt2.txt`
+5. Implement solution in `src/solution.ts`
+6. Update `src/test.ts` with expected values after solving
+
+**Template files:**
+- `solution.ts` - Clean template with command-line arg support
+- `example.txt`, `input.txt`, `pt1.txt`, `pt2.txt` - Placeholder comments
+- `test.ts` - Test harness with placeholder expected values (0)
+- `README.md` - Quick reference guide
