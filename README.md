@@ -30,6 +30,12 @@ advent2025/
 | Day | Part 1 | Part 2 | Notes |
 |-----|--------|--------|-------|
 | [01](solved/day01/) | ⭐ | ⭐ | Secret entrance dial combination |
+| [02](solved/day02/) | ⭐ | ⭐ | Invalid product ID sequences |
+| [03](solved/day03/) | ⭐ | ⭐ | Battery bank digit optimization |
+| [04](solved/day04/) | ⭐ | ⭐ | Paper roll accessibility grid |
+| [05](solved/day05/) | ⭐ | ⭐ | Fresh ingredient ID ranges |
+| [06](solved/day06/) | ⭐ | ⭐ | Cephalopod vertical math problems |
+| [07](solved/day07/) | ⭐ | ⭐ | Tachyon beam splitter simulation |
 
 ## Running Solutions
 
