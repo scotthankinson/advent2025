@@ -36,6 +36,7 @@ advent2025/
 | [05](solved/day05/) | ⭐ | ⭐ | Fresh ingredient ID ranges |
 | [06](solved/day06/) | ⭐ | ⭐ | Cephalopod vertical math problems |
 | [07](solved/day07/) | ⭐ | ⭐ | Tachyon beam splitter simulation |
+| [08](solved/day08/) | ⭐ | ⭐ | Junction box circuits (Union-Find) |
 
 ## Running Solutions
 
