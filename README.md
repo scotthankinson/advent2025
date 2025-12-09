@@ -37,6 +37,7 @@ advent2025/
 | [06](solved/day06/) | ⭐ | ⭐ | Cephalopod vertical math problems |
 | [07](solved/day07/) | ⭐ | ⭐ | Tachyon beam splitter simulation |
 | [08](solved/day08/) | ⭐ | ⭐ | Junction box circuits (Union-Find) |
+| [09](solved/day09/) | ⭐ | ⭐ | Movie theater red tile rectangles |
 
 ## Running Solutions
 
